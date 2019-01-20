@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/shopitem"
+    android:padding="@dimen/dp_10"
+    android:background="@drawable/bk">
+
+    <ImageView
+        android:id="@+id/shopimg"
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_100"
+        android:src="@color/colorPrimary"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_100"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/shopname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:padding="@dimen/dp_5"
+            android:textSize="@dimen/dp_12"
+            android:text="11111111"
+            android:layout_weight="2"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/shopprice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp_5"
+                android:textSize="@dimen/dp_15"
+                android:textColor="#f00"
+                android:layout_weight="1"
+                android:text="1111111"/>
+           <Button
+               android:id="@+id/addCarButton"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="加入购物车"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
